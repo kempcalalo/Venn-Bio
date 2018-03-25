@@ -132,7 +132,7 @@ namespace VennBio
 
             //Upload Zip
             Upload(bucketName, token, CompressedFile, "application/zip");
-            //Upload XML
+            //Upload XML fd
             Upload(bucketName, token, ConvertedFile, "application/xml");
 
         }
